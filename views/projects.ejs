@@ -1,0 +1,57 @@
+<%- include ('partials/header.ejs'); %>
+
+<%- include ('partials/navbar.ejs'); %>
+
+<div>
+<% if (title == "Projects") { %>
+  <br>
+      <h3 style="text-align: center; margin-top: 30px;"><b> Project List </b></h3>
+     
+      <div class="row" style="margin-top: 30px;">
+          <div style="text-align: center; margin-left: 60px;">
+            <img src="/Assets/images/logo.jfif" style="height: 100px; width: 200px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+            <p>
+              <h2 style="text-align: center;">
+              <B>A net worth calculator and tracker</B>
+              </h2>
+            </p>
+          <div class="project-text-head" style=" text-align: justify;">
+            <p>suggested implementation: CLI, web, or mobile app). Build a calculator you can use to track the rise or fall of your net worth on a monthly basis. 
+              You can use something like this net worth worksheet from Charles Schwab to guide you. 
+              Optional extension: have it send you a 12 month report for the previous year on the first of January each year.            
+            </p>
+          </div>
+        </div>
+        <p>
+          <h2 style="text-align: center;">
+          <B>Build a web scraper</B>
+          </h2>
+        </p>
+      <div class="project-text-head" style=" text-align: justify;">
+        <p>            
+          suggested implementation: any programming language you want to master). Build a tool that takes a URL as input and returns the content of the URL as HTML or XML.
+        </p>
+      </div>
+
+        </div>        
+            <p>
+              <h2 style="text-align: center;">
+              <B>A chess engine</B>
+            </h2>
+          </p>
+            <div class="project-text-head" style= "text-align: justify;">
+              <p>
+                suggested implementation: an engine written in a programming language you want to learn, or master). 
+                Try to write an engine that can play chess against a human opponent using a Universal Chess Interface compatible GUI, such as XBoard. 
+                See Stockfish as an example. For a less daunting challenge, you may wish to focus on the behavior of just one piece, e.g., Knights.
+              </p>
+            </div> 
+          </div>    
+        </div>
+    <%} else { %>
+  <% } %>
+</div>
+  <%- include ('partials/navbar2.ejs'); %>
+<%- include ('partials/footer.ejs'); %>
+  

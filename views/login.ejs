@@ -1,0 +1,52 @@
+<%- include ('partials/header.ejs') %>
+
+<%- include ('partials/navbar.ejs') %>
+
+<div >
+    <br><br>
+<div class="container" style="border: 2px;">
+
+    <div class="row">
+        <div>
+            <h1>Login Page</h1><br>
+            <form method="POST" autocomplete="off">
+                <fieldset class="form-group">
+                <label for="username">Username : 
+                    <input type="text" class="form-control"
+                    name="username" placeholder="Enter username"
+                    id="username" required>
+                </label>
+                </fieldset>
+
+                <fieldset class="form-group">
+                <label for="password">Password : 
+                    <input type="password" class="form-control"
+                    name="password" placeholder="Enter password"
+                    id="password" required>
+                    
+                </label>
+                   
+                <br>
+                or
+                <br>
+                <a href="/register">Register Here</a>
+                </fieldset>
+
+                <br>
+                <fieldset class="form-group text-right">
+                    <a href="/home"><button type="button" value="Submit">Log In</button></a>
+                        <input type="button" value="Cancel">
+                    </a>
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+<%- include ('partials/navbar2.ejs') %>  
+
+<%- include ('partials/footer.ejs') %>

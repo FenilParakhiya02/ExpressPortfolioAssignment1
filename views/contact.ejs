@@ -1,0 +1,50 @@
+
+
+<%- include ('partials/header.ejs') %>
+
+<%- include ('partials/navbar.ejs') %>
+
+<div>
+<h2 style="text-align: center;">
+  <b>Contact with message and add email and name</b>
+</h2>
+  <form method="post" autocomplete="off">
+    <div style="float:left;"> 
+      <label>Full name</label>
+      <input type="text" class="form-control" size="35" placeholder="Full Name"/>
+    </div>
+    <div style="float:left;">
+      <label>Please Enter your email</label>
+      <input type="email" class="form-control" size="35" placeholder="xyz@example.com"/>
+    </div>
+    <div style="float:left;">
+      <label class="lefttext">Your message</label>
+      <textarea type="text" rows="2" cols="20" placeholder="Type your message here" class="form-control" ></textarea>
+      <br>
+    </div>
+    <div style="padding-left:  10px;">
+      <a href="/home"><button type="button" value="Submit">Submit</button></a>
+    </div>
+    <br><br><br><br><br><br>
+
+    <h3 style="text-align: center;">Alternatively, you can reach out to me:-</h3>
+
+    <div style="text-decoration: wavy; text-align: center;">
+      <div>
+        <br>
+        <h5>Fenil Parakhiya</h5>
+      </div>
+      <div>
+        <p >Email: 
+          <a href="fenilparakhiya11111@gmail.com">fenilparakhiya@gmail.com</a>
+        </p>
+        <p >Phone: +1 (647) 949 6749</p>
+      </div>
+    </div>
+  </form>
+  <br><br><br>
+</div>
+
+<%- include ('partials/navbar2.ejs') %>
+
+<%- include ('partials/footer.ejs') %>
